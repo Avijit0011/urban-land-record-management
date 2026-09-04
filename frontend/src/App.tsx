@@ -9,13 +9,14 @@ import { ComparisonPage } from './pages/ComparisonPage';
 import { ImageryFeatureExtractionPage } from './pages/ImageryFeatureExtractionPage';
 import { ChangeDetectionPage } from './pages/ChangeDetectionPage';
 import { AnalyticsPage } from './pages/AnalyticsPage';
-import { fetchStatistics, loadDemoDataset, executeHarmonization, triggerSpatialMatch, Statistics } from './services/api';
+import { fetchStatistics, loadDemoDataset, removeDemoDataset, executeHarmonization, triggerSpatialMatch, Statistics } from './services/api';
 
 export const App: React.FC = () => {
   const [activeTab, setActiveTab] = useState<string>('dashboard');
   const [stats, setStats] = useState<Statistics | null>(null);
   const [statsLoading, setStatsLoading] = useState(true);
   const [isDemoLoading, setIsDemoLoading] = useState(false);
+  const [isDemoRemoving, setIsDemoRemoving] = useState(false);
   const [notification, setNotification] = useState<string | null>(null);
   const [darkMode, setDarkMode] = useState<boolean>(() => {
     const saved = localStorage.getItem('theme');
@@ -68,6 +69,21 @@ export const App: React.FC = () => {
     }
   };
 
+  const handleRemoveDemo = async () => {
+    setIsDemoRemoving(true);
+    showToast('Removing synthetic demo dataset from database...');
+    try {
+      const res = await removeDemoDataset();
+      await loadStats();
+      showToast(res.message || 'Demo dataset removed.');
+    } catch (err) {
+      console.error('Failed to remove demo dataset:', err);
+      showToast('Error removing demo dataset.');
+    } finally {
+      setIsDemoRemoving(false);
+    }
+  };
+
   const handleHarmonize = async () => {
     showToast('Running harmonization pipeline...');
     try {
@@ -103,10 +119,13 @@ export const App: React.FC = () => {
         setActiveTab={setActiveTab}
         onLoadDemo={handleLoadDemo}
         isDemoLoading={isDemoLoading}
-        openConflictsCount={stats?.kpis?.open_conflicts || 4}
+        onRemoveDemo={handleRemoveDemo}
+        isDemoRemoving={isDemoRemoving}
+        openConflictsCount={stats?.kpis?.open_conflicts || 0}
         darkMode={darkMode}
         onToggleDarkMode={toggleDarkMode}
       />
+
 
       {/* Toast Notification */}
       {notification && (

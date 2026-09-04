@@ -138,4 +138,6 @@ export const fetchStatistics = () => api.get<Statistics>('/analytics/statistics'
 export const fetchEvaluation = () => api.get('/analytics/evaluation').then((res) => res.data);
 
 export const loadDemoDataset = () => api.post('/demo/load').then((res) => res.data);
+export const removeDemoDataset = () => api.post('/demo/remove').then((res) => res.data);
+
 

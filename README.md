@@ -153,6 +153,8 @@ Frontend runs at `http://localhost:3000`.
 ## How to Demo the Application
 
 1. Open `http://localhost:3000` in your web browser.
-2. Click the **"Load Demo Dataset"** button on the top right navigation bar.
+2. Click the **"Seed Demo Data"** button on the top right navigation bar.
 3. The system will automatically seed the PostGIS/SQLite database with **240 synthetic parcels**, **166 building footprints**, **survey control points**, and **4 ground-truth conflicts**.
 4. Explore the **Dashboard KPIs & Charts**, click **WebGIS Map** to inspect colored parcels and buildings with spatial search, open **Conflicts** to approve/reject flagged discrepancies with AI explainability, and view the **Analytics Evaluation Scorecard**.
+5. To reset or clear demo data at any time, click the **"Clear Demo Data"** button in the navigation bar or the **Datasets** page header (`DELETE /api/demo/remove`).
+

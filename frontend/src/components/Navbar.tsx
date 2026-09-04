@@ -12,7 +12,8 @@ import {
   RefreshCw,
   Globe2,
   Sun,
-  Moon
+  Moon,
+  Trash2
 } from 'lucide-react';
 
 interface NavbarProps {
@@ -20,6 +21,8 @@ interface NavbarProps {
   setActiveTab: (tab: string) => void;
   onLoadDemo: () => void;
   isDemoLoading: boolean;
+  onRemoveDemo: () => void;
+  isDemoRemoving: boolean;
   openConflictsCount: number;
   darkMode: boolean;
   onToggleDarkMode: () => void;
@@ -30,6 +33,8 @@ export const Navbar: React.FC<NavbarProps> = ({
   setActiveTab,
   onLoadDemo,
   isDemoLoading,
+  onRemoveDemo,
+  isDemoRemoving,
   openConflictsCount,
   darkMode,
   onToggleDarkMode
@@ -126,17 +131,28 @@ export const Navbar: React.FC<NavbarProps> = ({
 
           <button
             onClick={onLoadDemo}
-            disabled={isDemoLoading}
+            disabled={isDemoLoading || isDemoRemoving}
             className="flex items-center gap-2 px-3.5 py-1.5 text-xs font-semibold rounded-md bg-teal-800 dark:bg-teal-700 hover:bg-teal-900 dark:hover:bg-teal-600 text-white shadow-xs active:scale-95 transition-all disabled:opacity-50"
           >
             <RefreshCw className={`w-3.5 h-3.5 text-teal-200 ${isDemoLoading ? 'animate-spin' : ''}`} />
             <span>{isDemoLoading ? 'Seeding Dataset...' : 'Seed Demo Data'}</span>
+          </button>
+
+          <button
+            onClick={onRemoveDemo}
+            disabled={isDemoLoading || isDemoRemoving}
+            title="Clear synthetic demo dataset from database"
+            className="flex items-center gap-1.5 px-3 py-1.5 text-xs font-semibold rounded-md bg-rose-50 dark:bg-rose-950/50 hover:bg-rose-100 dark:hover:bg-rose-900/60 text-rose-700 dark:text-rose-300 border border-rose-200 dark:border-rose-800 shadow-xs active:scale-95 transition-all disabled:opacity-50"
+          >
+            <Trash2 className={`w-3.5 h-3.5 ${isDemoRemoving ? 'animate-spin' : ''}`} />
+            <span>{isDemoRemoving ? 'Clearing...' : 'Clear Demo Data'}</span>
           </button>
         </div>
       </div>
     </header>
   );
 };
+
 
 
 

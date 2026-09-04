@@ -9,7 +9,7 @@ root_dir = Path(__file__).resolve().parent.parent.parent.parent
 if str(root_dir) not in sys.path:
     sys.path.insert(0, str(root_dir))
 
-from app.database.models import Dataset, Parcel, Building, Conflict, AuditLog
+from app.database.models import Dataset, Parcel, Building, Conflict, HarmonizedAttribute, AuditLog
 from scripts.generate_synthetic_data import generate_synthetic_urban_dataset
 from app.services.conflict_detector import detect_conflicts_in_dataset
 from app.services.audit import record_audit_log
@@ -40,6 +40,7 @@ def load_demo_dataset_endpoint(db: Session = Depends(get_db)):
     db.query(Building).delete()
     db.query(Conflict).delete()
     db.query(Dataset).delete()
+    db.query(HarmonizedAttribute).delete()
     db.commit()
 
     # Load Cadastral Parcels
@@ -153,3 +154,39 @@ def load_demo_dataset_endpoint(db: Session = Depends(get_db)):
         "buildings_loaded": len(b_features),
         "conflicts_detected": len(conflicts)
     }
+
+@router.delete("/remove")
+@router.post("/remove")
+def remove_demo_dataset_endpoint(db: Session = Depends(get_db)):
+    """
+    Removes and clears synthetic demo dataset from the database.
+    """
+    parcels_count = db.query(Parcel).count()
+    buildings_count = db.query(Building).count()
+    conflicts_count = db.query(Conflict).count()
+    datasets_count = db.query(Dataset).count()
+
+    db.query(Parcel).delete()
+    db.query(Building).delete()
+    db.query(Conflict).delete()
+    db.query(Dataset).delete()
+    db.query(HarmonizedAttribute).delete()
+    db.commit()
+
+    record_audit_log(
+        db=db,
+        entity_type="demo_dataset",
+        entity_id="demo_remove",
+        action="remove_demo_dataset",
+        new_value=f"Removed {parcels_count} parcels, {buildings_count} buildings, {conflicts_count} conflicts, {datasets_count} datasets."
+    )
+
+    return {
+        "status": "success",
+        "message": "Synthetic demo dataset successfully removed from database!",
+        "parcels_removed": parcels_count,
+        "buildings_removed": buildings_count,
+        "conflicts_removed": conflicts_count,
+        "datasets_removed": datasets_count
+    }
+

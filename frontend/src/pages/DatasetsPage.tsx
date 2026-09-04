@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { UploadCloud, FileText, CheckCircle2, FolderKanban, BarChart3, ShieldCheck, Activity, MapPin, ArrowRight, RefreshCw, Eye } from 'lucide-react';
-import { Dataset, DatasetAnalysis, fetchDatasets, uploadDatasetFile, fetchDatasetAnalysis } from '../services/api';
+import { UploadCloud, FileText, CheckCircle2, FolderKanban, BarChart3, ShieldCheck, Activity, MapPin, ArrowRight, RefreshCw, Eye, Trash2 } from 'lucide-react';
+import { Dataset, DatasetAnalysis, fetchDatasets, uploadDatasetFile, fetchDatasetAnalysis, removeDemoDataset } from '../services/api';
 import { SkeletonTable, SkeletonBox } from '../components/Skeleton';
 
 export const DatasetsPage: React.FC = () => {
@@ -12,6 +12,7 @@ export const DatasetsPage: React.FC = () => {
   const [loading, setLoading] = useState(true);
   const [uploading, setUploading] = useState(false);
   const [analyzing, setAnalyzing] = useState(false);
+  const [clearing, setClearing] = useState(false);
   const [uploadSuccess, setUploadSuccess] = useState<string | null>(null);
 
   useEffect(() => {
@@ -25,6 +26,9 @@ export const DatasetsPage: React.FC = () => {
       setDatasets(data);
       if (data.length > 0) {
         handleSelectDataset(data[0]);
+      } else {
+        setSelectedDataset(null);
+        setAnalysis(null);
       }
     } catch (err) {
       console.error('Failed to load datasets:', err);
@@ -32,6 +36,21 @@ export const DatasetsPage: React.FC = () => {
       setLoading(false);
     }
   };
+
+  const handleRemoveDemo = async () => {
+    setClearing(true);
+    try {
+      const res = await removeDemoDataset();
+      setUploadSuccess(res.message || 'Demo datasets cleared.');
+      setTimeout(() => setUploadSuccess(null), 4000);
+      await loadDatasets();
+    } catch (err) {
+      console.error('Failed to clear demo dataset:', err);
+    } finally {
+      setClearing(false);
+    }
+  };
+
 
   const handleSelectDataset = async (dataset: Dataset) => {
     setSelectedDataset(dataset);
@@ -216,10 +235,23 @@ export const DatasetsPage: React.FC = () => {
         <SkeletonTable rows={5} cols={6} />
       ) : (
         <div className="bg-white dark:bg-slate-900/90 rounded-xl border border-slate-200/80 dark:border-slate-800/80 p-5 space-y-3 shadow-sm backdrop-blur-sm">
-          <h3 className="text-xs font-bold text-slate-700 dark:text-slate-300 uppercase tracking-wider flex items-center gap-1.5 border-b border-slate-200 dark:border-slate-800 pb-2.5">
-            <FolderKanban className="w-3.5 h-3.5 text-teal-700 dark:text-teal-400" />
-            <span>Registered PostGIS Spatial Datasets ({datasets.length})</span>
-          </h3>
+          <div className="flex items-center justify-between border-b border-slate-200 dark:border-slate-800 pb-2.5">
+            <h3 className="text-xs font-bold text-slate-700 dark:text-slate-300 uppercase tracking-wider flex items-center gap-1.5">
+              <FolderKanban className="w-3.5 h-3.5 text-teal-700 dark:text-teal-400" />
+              <span>Registered PostGIS Spatial Datasets ({datasets.length})</span>
+            </h3>
+            {datasets.length > 0 && (
+              <button
+                onClick={handleRemoveDemo}
+                disabled={clearing}
+                className="flex items-center gap-1.5 px-2.5 py-1 text-xs font-semibold text-rose-700 dark:text-rose-300 bg-rose-50 dark:bg-rose-950/40 hover:bg-rose-100 dark:hover:bg-rose-900/60 rounded-md border border-rose-200 dark:border-rose-800 transition-all cursor-pointer disabled:opacity-50"
+              >
+                <Trash2 className={`w-3.5 h-3.5 ${clearing ? 'animate-spin' : ''}`} />
+                <span>{clearing ? 'Clearing...' : 'Clear Demo Data'}</span>
+              </button>
+            )}
+          </div>
+
 
           <div className="overflow-x-auto">
             <table className="w-full text-left text-xs">

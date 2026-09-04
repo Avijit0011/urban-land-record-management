@@ -1,0 +1,3851 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "EPSG:3857"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626018.832226926,
+          2156014.2812320213
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0001",
+        "parcel_id": "P0001",
+        "elevation_m": 122.71,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626059.588622915,
+          2156017.315079883
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0002",
+        "parcel_id": "P0002",
+        "elevation_m": 119.22,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626098.26376736,
+          2156014.596536635
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0003",
+        "parcel_id": "P0003",
+        "elevation_m": 121.03,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626138.27613008,
+          2156016.31547529
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0004",
+        "parcel_id": "P0004",
+        "elevation_m": 119.97,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626178.878331102,
+          2156018.122639034
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0005",
+        "parcel_id": "P0005",
+        "elevation_m": 123.88,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626218.564411266,
+          2156017.296844147
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0006",
+        "parcel_id": "P0006",
+        "elevation_m": 119.5,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626257.796562696,
+          2156018.0825190493
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0007",
+        "parcel_id": "P0007",
+        "elevation_m": 122.89,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626298.615150737,
+          2156016.5655407156
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0008",
+        "parcel_id": "P0008",
+        "elevation_m": 123.76,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626339.704031214,
+          2156014.6722888732
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0009",
+        "parcel_id": "P0009",
+        "elevation_m": 124.59,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626378.380982922,
+          2156016.4283492467
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0010",
+        "parcel_id": "P0010",
+        "elevation_m": 124.65,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626418.584972747,
+          2156017.0816273107
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0011",
+        "parcel_id": "P0011",
+        "elevation_m": 120.36,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626459.391928209,
+          2156016.2733776495
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0012",
+        "parcel_id": "P0012",
+        "elevation_m": 118.65,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626497.643573755,
+          2156016.692007952
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0013",
+        "parcel_id": "P0013",
+        "elevation_m": 119.43,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626540.457817467,
+          2156017.4978292254
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0014",
+        "parcel_id": "P0014",
+        "elevation_m": 123.07,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626580.134850677,
+          2156015.307613765
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0015",
+        "parcel_id": "P0015",
+        "elevation_m": 121.6,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626619.261781763,
+          2156018.893026102
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0016",
+        "parcel_id": "P0016",
+        "elevation_m": 118.91,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626017.647362575,
+          2156054.5858520465
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0017",
+        "parcel_id": "P0017",
+        "elevation_m": 123.65,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626055.923937505,
+          2156050.674158142
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0018",
+        "parcel_id": "P0018",
+        "elevation_m": 121.33,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626101.232574755,
+          2156050.1621806375
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0019",
+        "parcel_id": "P0019",
+        "elevation_m": 119.42,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626141.080308495,
+          2156052.339489009
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0020",
+        "parcel_id": "P0020",
+        "elevation_m": 124.67,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626179.398521133,
+          2156052.527681765
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0021",
+        "parcel_id": "P0021",
+        "elevation_m": 120.6,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626218.776429355,
+          2156051.6464269767
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0022",
+        "parcel_id": "P0022",
+        "elevation_m": 122.04,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626256.277148979,
+          2156053.547205486
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0023",
+        "parcel_id": "P0023",
+        "elevation_m": 122.36,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626297.284322917,
+          2156051.252993735
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0024",
+        "parcel_id": "P0024",
+        "elevation_m": 125.03,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626340.291156005,
+          2156050.3416756773
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0025",
+        "parcel_id": "P0025",
+        "elevation_m": 125.33,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626379.110439766,
+          2156053.9430601853
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0026",
+        "parcel_id": "P0026",
+        "elevation_m": 119.26,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626419.44449353,
+          2156054.028425603
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0027",
+        "parcel_id": "P0027",
+        "elevation_m": 118.99,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626460.033764247,
+          2156051.3113746746
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0028",
+        "parcel_id": "P0028",
+        "elevation_m": 120.36,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626498.130466683,
+          2156050.6751490934
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0029",
+        "parcel_id": "P0029",
+        "elevation_m": 124.15,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626540.689162713,
+          2156052.708955828
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0030",
+        "parcel_id": "P0030",
+        "elevation_m": 123.54,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626577.728112755,
+          2156050.149736288
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0031",
+        "parcel_id": "P0031",
+        "elevation_m": 120.63,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626618.307155091,
+          2156052.1105419504
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0032",
+        "parcel_id": "P0032",
+        "elevation_m": 124.23,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626019.12762955,
+          2156085.855406055
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0033",
+        "parcel_id": "P0033",
+        "elevation_m": 122.53,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626059.70212057,
+          2156085.4734069784
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0034",
+        "parcel_id": "P0034",
+        "elevation_m": 118.85,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626098.161157886,
+          2156089.1059383415
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0035",
+        "parcel_id": "P0035",
+        "elevation_m": 121.49,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626139.721772183,
+          2156087.64944121
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0036",
+        "parcel_id": "P0036",
+        "elevation_m": 120.5,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626178.373268386,
+          2156084.6864171606
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0037",
+        "parcel_id": "P0037",
+        "elevation_m": 124.33,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626219.828941578,
+          2156086.4181061485
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0038",
+        "parcel_id": "P0038",
+        "elevation_m": 125.17,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626258.699970115,
+          2156087.479345024
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0039",
+        "parcel_id": "P0039",
+        "elevation_m": 124.38,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626300.992008634,
+          2156089.4385621636
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0040",
+        "parcel_id": "P0040",
+        "elevation_m": 121.68,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626337.965335343,
+          2156089.3712462294
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0041",
+        "parcel_id": "P0041",
+        "elevation_m": 118.78,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626378.141806532,
+          2156085.8531401847
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0042",
+        "parcel_id": "P0042",
+        "elevation_m": 121.08,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626420.007643703,
+          2156088.9517762437
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0043",
+        "parcel_id": "P0043",
+        "elevation_m": 121.13,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626461.316717176,
+          2156085.986709149
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0044",
+        "parcel_id": "P0044",
+        "elevation_m": 120.93,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626498.98522395,
+          2156085.537230791
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0045",
+        "parcel_id": "P0045",
+        "elevation_m": 123.05,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626540.310495686,
+          2156088.2019830006
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0046",
+        "parcel_id": "P0046",
+        "elevation_m": 120.21,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626578.240971573,
+          2156085.510955566
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0047",
+        "parcel_id": "P0047",
+        "elevation_m": 123.41,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626619.281629447,
+          2156083.6541495374
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0048",
+        "parcel_id": "P0048",
+        "elevation_m": 119.15,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626017.356122162,
+          2156122.4429150717
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0049",
+        "parcel_id": "P0049",
+        "elevation_m": 120.4,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626057.364012402,
+          2156118.6866523777
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0050",
+        "parcel_id": "P0050",
+        "elevation_m": 125.34,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626097.877449326,
+          2156119.0797713967
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0051",
+        "parcel_id": "P0051",
+        "elevation_m": 125.11,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626138.453869553,
+          2156120.7620601077
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0052",
+        "parcel_id": "P0052",
+        "elevation_m": 122.54,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626180.58650267,
+          2156121.1278175428
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0053",
+        "parcel_id": "P0053",
+        "elevation_m": 120.08,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626218.608743005,
+          2156122.792167585
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0054",
+        "parcel_id": "P0054",
+        "elevation_m": 120.18,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626258.651789254,
+          2156120.406758572
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0055",
+        "parcel_id": "P0055",
+        "elevation_m": 122.88,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626299.594038555,
+          2156123.81661747
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0056",
+        "parcel_id": "P0056",
+        "elevation_m": 122.67,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626340.162618522,
+          2156122.7523833616
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0057",
+        "parcel_id": "P0057",
+        "elevation_m": 120.76,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626379.562186927,
+          2156121.4060502797
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0058",
+        "parcel_id": "P0058",
+        "elevation_m": 119.73,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626418.546535147,
+          2156123.144688155
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0059",
+        "parcel_id": "P0059",
+        "elevation_m": 120.81,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626461.116330408,
+          2156121.482829948
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0060",
+        "parcel_id": "P0060",
+        "elevation_m": 124.27,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626496.9773236,
+          2156121.6772687566
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0061",
+        "parcel_id": "P0061",
+        "elevation_m": 124.67,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626539.267620713,
+          2156120.267227761
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0062",
+        "parcel_id": "P0062",
+        "elevation_m": 124.89,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626579.851915533,
+          2156119.959354145
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0063",
+        "parcel_id": "P0063",
+        "elevation_m": 122.7,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626618.41138726,
+          2156121.304796297
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0064",
+        "parcel_id": "P0064",
+        "elevation_m": 124.36,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626020.214955121,
+          2156157.130496987
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0065",
+        "parcel_id": "P0065",
+        "elevation_m": 125.37,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626058.933220081,
+          2156155.9337881743
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0066",
+        "parcel_id": "P0066",
+        "elevation_m": 123.06,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626096.144471668,
+          2156159.7844222304
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0067",
+        "parcel_id": "P0067",
+        "elevation_m": 125.29,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626136.354971167,
+          2156157.6936923675
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0068",
+        "parcel_id": "P0068",
+        "elevation_m": 122.29,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626179.653633572,
+          2156154.869187651
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0069",
+        "parcel_id": "P0069",
+        "elevation_m": 124.07,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626217.402682226,
+          2156155.960834993
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0070",
+        "parcel_id": "P0070",
+        "elevation_m": 119.5,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626258.262596713,
+          2156154.4876454654
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0071",
+        "parcel_id": "P0071",
+        "elevation_m": 125.41,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626299.101357095,
+          2156158.441845071
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0072",
+        "parcel_id": "P0072",
+        "elevation_m": 120.57,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626340.493175054,
+          2156157.186712496
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0073",
+        "parcel_id": "P0073",
+        "elevation_m": 120.11,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626379.35222356,
+          2156155.0134759783
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0074",
+        "parcel_id": "P0074",
+        "elevation_m": 122.56,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626419.112513864,
+          2156155.3002952645
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0075",
+        "parcel_id": "P0075",
+        "elevation_m": 124.31,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626457.892237367,
+          2156158.5794470552
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0076",
+        "parcel_id": "P0076",
+        "elevation_m": 123.57,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626501.372201676,
+          2156158.11049742
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0077",
+        "parcel_id": "P0077",
+        "elevation_m": 120.34,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626538.117378198,
+          2156157.9200521735
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0078",
+        "parcel_id": "P0078",
+        "elevation_m": 123.41,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626577.881690877,
+          2156153.667902606
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0079",
+        "parcel_id": "P0079",
+        "elevation_m": 125.12,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626617.766327301,
+          2156156.8399605947
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0080",
+        "parcel_id": "P0080",
+        "elevation_m": 124.49,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626017.575502668,
+          2156193.315073047
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0081",
+        "parcel_id": "P0081",
+        "elevation_m": 118.65,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626059.4197646,
+          2156190.1833160096
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0082",
+        "parcel_id": "P0082",
+        "elevation_m": 124.02,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626101.161865877,
+          2156191.873601981
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0083",
+        "parcel_id": "P0083",
+        "elevation_m": 118.61,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626137.958151551,
+          2156188.404664548
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0084",
+        "parcel_id": "P0084",
+        "elevation_m": 123.98,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626180.465871798,
+          2156192.567879406
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0085",
+        "parcel_id": "P0085",
+        "elevation_m": 119.01,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626216.068187792,
+          2156191.2376962765
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0086",
+        "parcel_id": "P0086",
+        "elevation_m": 123.41,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626261.341907594,
+          2156192.3384779077
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0087",
+        "parcel_id": "P0087",
+        "elevation_m": 123.16,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626299.490854954,
+          2156188.6846794966
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0088",
+        "parcel_id": "P0088",
+        "elevation_m": 123.19,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626339.571130725,
+          2156192.824962048
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0089",
+        "parcel_id": "P0089",
+        "elevation_m": 120.07,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626377.1549822,
+          2156194.0575647964
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0090",
+        "parcel_id": "P0090",
+        "elevation_m": 124.31,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626418.245054085,
+          2156189.701388443
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0091",
+        "parcel_id": "P0091",
+        "elevation_m": 123.72,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626457.506454423,
+          2156191.0657630037
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0092",
+        "parcel_id": "P0092",
+        "elevation_m": 120.4,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626499.132297173,
+          2156190.8182598543
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0093",
+        "parcel_id": "P0093",
+        "elevation_m": 125.39,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626538.43384752,
+          2156190.9900792255
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0094",
+        "parcel_id": "P0094",
+        "elevation_m": 122.41,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626579.467078118,
+          2156191.2713358267
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0095",
+        "parcel_id": "P0095",
+        "elevation_m": 119.31,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626618.325032853,
+          2156191.1784681976
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0096",
+        "parcel_id": "P0096",
+        "elevation_m": 120.67,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626017.364757176,
+          2156225.881224085
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0097",
+        "parcel_id": "P0097",
+        "elevation_m": 123.02,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626057.283828419,
+          2156223.4058387764
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0098",
+        "parcel_id": "P0098",
+        "elevation_m": 121.64,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626101.192501687,
+          2156227.1694518426
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0099",
+        "parcel_id": "P0099",
+        "elevation_m": 120.96,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626135.94897222,
+          2156226.187867763
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0100",
+        "parcel_id": "P0100",
+        "elevation_m": 124.04,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626181.65080169,
+          2156226.3547136406
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0101",
+        "parcel_id": "P0101",
+        "elevation_m": 124.36,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626221.66074404,
+          2156223.7218965543
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0102",
+        "parcel_id": "P0102",
+        "elevation_m": 120.87,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626260.166169409,
+          2156225.9210715797
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0103",
+        "parcel_id": "P0103",
+        "elevation_m": 120.67,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626298.62508869,
+          2156227.5838163807
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0104",
+        "parcel_id": "P0104",
+        "elevation_m": 125.13,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626339.458397148,
+          2156228.4089705804
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0105",
+        "parcel_id": "P0105",
+        "elevation_m": 120.57,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626380.283229666,
+          2156227.5877944133
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0106",
+        "parcel_id": "P0106",
+        "elevation_m": 123.9,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626419.818814816,
+          2156224.9279192835
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0107",
+        "parcel_id": "P0107",
+        "elevation_m": 121.78,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626461.562898671,
+          2156227.259416619
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0108",
+        "parcel_id": "P0108",
+        "elevation_m": 124.11,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626497.572094213,
+          2156226.8296713145
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0109",
+        "parcel_id": "P0109",
+        "elevation_m": 120.41,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626540.50906319,
+          2156226.0953189633
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0110",
+        "parcel_id": "P0110",
+        "elevation_m": 119.07,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626576.594626801,
+          2156225.8681042823
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0111",
+        "parcel_id": "P0111",
+        "elevation_m": 118.63,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626619.494831473,
+          2156225.226369079
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0112",
+        "parcel_id": "P0112",
+        "elevation_m": 119.28,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626018.988334062,
+          2156261.6010046266
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0113",
+        "parcel_id": "P0113",
+        "elevation_m": 122.16,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626058.113961453,
+          2156264.3455763194
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0114",
+        "parcel_id": "P0114",
+        "elevation_m": 120.91,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626100.43951551,
+          2156262.5261436002
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0115",
+        "parcel_id": "P0115",
+        "elevation_m": 123.51,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626139.690504313,
+          2156260.6231035097
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0116",
+        "parcel_id": "P0116",
+        "elevation_m": 121.0,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626179.881134681,
+          2156262.0021315683
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0117",
+        "parcel_id": "P0117",
+        "elevation_m": 122.13,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626218.93642586,
+          2156262.8331043986
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0118",
+        "parcel_id": "P0118",
+        "elevation_m": 119.67,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626259.336998634,
+          2156262.6992803533
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0119",
+        "parcel_id": "P0119",
+        "elevation_m": 123.26,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626300.857319642,
+          2156260.6724793706
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0120",
+        "parcel_id": "P0120",
+        "elevation_m": 118.73,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626337.109160101,
+          2156260.6328875157
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0121",
+        "parcel_id": "P0121",
+        "elevation_m": 118.68,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626379.140368469,
+          2156260.4537985804
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0122",
+        "parcel_id": "P0122",
+        "elevation_m": 121.94,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626417.005261777,
+          2156264.103090962
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0123",
+        "parcel_id": "P0123",
+        "elevation_m": 124.46,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626460.059942009,
+          2156263.7899078503
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0124",
+        "parcel_id": "P0124",
+        "elevation_m": 124.13,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626497.97747641,
+          2156261.8153657955
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0125",
+        "parcel_id": "P0125",
+        "elevation_m": 121.76,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626540.344329715,
+          2156260.009724672
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0126",
+        "parcel_id": "P0126",
+        "elevation_m": 125.04,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626577.71864945,
+          2156262.6022294434
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0127",
+        "parcel_id": "P0127",
+        "elevation_m": 119.68,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626621.451892119,
+          2156260.980056714
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0128",
+        "parcel_id": "P0128",
+        "elevation_m": 123.9,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626018.690327842,
+          2156295.461369358
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0129",
+        "parcel_id": "P0129",
+        "elevation_m": 123.29,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626056.623842916,
+          2156294.6091715167
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0130",
+        "parcel_id": "P0130",
+        "elevation_m": 120.92,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626098.450724313,
+          2156296.0522609213
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0131",
+        "parcel_id": "P0131",
+        "elevation_m": 120.24,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626140.194422519,
+          2156295.288612486
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0132",
+        "parcel_id": "P0132",
+        "elevation_m": 121.98,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626176.937522093,
+          2156295.1004948984
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0133",
+        "parcel_id": "P0133",
+        "elevation_m": 124.68,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626219.244819961,
+          2156297.2821144653
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0134",
+        "parcel_id": "P0134",
+        "elevation_m": 122.86,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626258.176823232,
+          2156294.9088167017
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0135",
+        "parcel_id": "P0135",
+        "elevation_m": 119.46,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626298.03854952,
+          2156296.7713428442
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0136",
+        "parcel_id": "P0136",
+        "elevation_m": 120.59,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626338.773887275,
+          2156298.2593543595
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0137",
+        "parcel_id": "P0137",
+        "elevation_m": 122.9,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626379.754033484,
+          2156296.6418242473
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0138",
+        "parcel_id": "P0138",
+        "elevation_m": 119.53,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626421.199421458,
+          2156292.798276041
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0139",
+        "parcel_id": "P0139",
+        "elevation_m": 124.94,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626459.082619075,
+          2156296.2200699337
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0140",
+        "parcel_id": "P0140",
+        "elevation_m": 121.72,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626499.903037619,
+          2156297.81341121
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0141",
+        "parcel_id": "P0141",
+        "elevation_m": 125.38,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626540.580254886,
+          2156297.6126215905
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0142",
+        "parcel_id": "P0142",
+        "elevation_m": 121.26,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626576.749852104,
+          2156296.7834839085
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0143",
+        "parcel_id": "P0143",
+        "elevation_m": 123.37,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626617.738374291,
+          2156296.4272114034
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0144",
+        "parcel_id": "P0144",
+        "elevation_m": 119.46,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626019.671694705,
+          2156334.2615320254
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0145",
+        "parcel_id": "P0145",
+        "elevation_m": 122.52,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626060.927014789,
+          2156333.2253444437
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0146",
+        "parcel_id": "P0146",
+        "elevation_m": 120.53,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626097.43017479,
+          2156331.9504686752
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0147",
+        "parcel_id": "P0147",
+        "elevation_m": 121.78,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626136.524354666,
+          2156329.748782146
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0148",
+        "parcel_id": "P0148",
+        "elevation_m": 119.73,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626181.753285507,
+          2156332.6206680033
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0149",
+        "parcel_id": "P0149",
+        "elevation_m": 118.55,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626217.935169239,
+          2156330.6749366247
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0150",
+        "parcel_id": "P0150",
+        "elevation_m": 123.3,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626261.831036322,
+          2156333.7190392856
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0151",
+        "parcel_id": "P0151",
+        "elevation_m": 121.12,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626300.630424522,
+          2156334.493787152
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0152",
+        "parcel_id": "P0152",
+        "elevation_m": 122.45,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626337.22580627,
+          2156331.621901035
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0153",
+        "parcel_id": "P0153",
+        "elevation_m": 124.16,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626378.858545216,
+          2156330.4283144223
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0154",
+        "parcel_id": "P0154",
+        "elevation_m": 122.55,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626415.341604656,
+          2156332.8961552163
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0155",
+        "parcel_id": "P0155",
+        "elevation_m": 123.61,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626461.939457627,
+          2156330.8175803684
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0156",
+        "parcel_id": "P0156",
+        "elevation_m": 119.33,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626499.842993118,
+          2156333.185698635
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0157",
+        "parcel_id": "P0157",
+        "elevation_m": 120.92,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626538.53282439,
+          2156332.503318878
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0158",
+        "parcel_id": "P0158",
+        "elevation_m": 123.2,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626579.228413174,
+          2156330.593225426
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0159",
+        "parcel_id": "P0159",
+        "elevation_m": 122.54,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626619.210899375,
+          2156334.2043542024
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0160",
+        "parcel_id": "P0160",
+        "elevation_m": 124.66,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626020.570368351,
+          2156367.5680442564
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0161",
+        "parcel_id": "P0161",
+        "elevation_m": 123.78,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626058.506282479,
+          2156368.8906209655
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0162",
+        "parcel_id": "P0162",
+        "elevation_m": 123.03,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626099.326113418,
+          2156368.402386469
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0163",
+        "parcel_id": "P0163",
+        "elevation_m": 122.41,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626138.756131532,
+          2156369.4393340116
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0164",
+        "parcel_id": "P0164",
+        "elevation_m": 120.18,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626178.027560081,
+          2156366.190315407
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0165",
+        "parcel_id": "P0165",
+        "elevation_m": 121.09,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626218.19635854,
+          2156365.6585955243
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0166",
+        "parcel_id": "P0166",
+        "elevation_m": 120.22,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626258.823068073,
+          2156369.288509842
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0167",
+        "parcel_id": "P0167",
+        "elevation_m": 119.68,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626300.905762207,
+          2156366.250593204
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0168",
+        "parcel_id": "P0168",
+        "elevation_m": 123.45,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626336.701497521,
+          2156367.014801463
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0169",
+        "parcel_id": "P0169",
+        "elevation_m": 123.56,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626379.591590976,
+          2156366.043247379
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0170",
+        "parcel_id": "P0170",
+        "elevation_m": 120.98,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626421.848803993,
+          2156364.388781597
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0171",
+        "parcel_id": "P0171",
+        "elevation_m": 122.96,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626461.12151482,
+          2156365.59953033
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0172",
+        "parcel_id": "P0172",
+        "elevation_m": 121.83,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626497.976503773,
+          2156366.258922477
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0173",
+        "parcel_id": "P0173",
+        "elevation_m": 121.29,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626536.901898364,
+          2156366.0369404918
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0174",
+        "parcel_id": "P0174",
+        "elevation_m": 120.92,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626576.039165065,
+          2156366.2069606613
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0175",
+        "parcel_id": "P0175",
+        "elevation_m": 120.99,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626621.426217915,
+          2156366.647636702
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0176",
+        "parcel_id": "P0176",
+        "elevation_m": 123.68,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626016.75048052,
+          2156398.9206872294
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0177",
+        "parcel_id": "P0177",
+        "elevation_m": 119.13,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626060.061723916,
+          2156402.801241916
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0178",
+        "parcel_id": "P0178",
+        "elevation_m": 120.38,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626097.385537116,
+          2156399.2176364376
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0179",
+        "parcel_id": "P0179",
+        "elevation_m": 118.55,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626138.10159504,
+          2156404.135066604
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0180",
+        "parcel_id": "P0180",
+        "elevation_m": 120.7,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626180.362090517,
+          2156403.7777680852
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0181",
+        "parcel_id": "P0181",
+        "elevation_m": 125.48,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626215.895797994,
+          2156403.732737595
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0182",
+        "parcel_id": "P0182",
+        "elevation_m": 123.11,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626258.511991289,
+          2156404.0925214724
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0183",
+        "parcel_id": "P0183",
+        "elevation_m": 121.02,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626301.07365915,
+          2156400.525221577
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0184",
+        "parcel_id": "P0184",
+        "elevation_m": 123.24,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626339.959062213,
+          2156401.8916833955
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0185",
+        "parcel_id": "P0185",
+        "elevation_m": 121.74,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626378.418593908,
+          2156404.005649433
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0186",
+        "parcel_id": "P0186",
+        "elevation_m": 119.95,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626418.561239937,
+          2156402.0454888553
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0187",
+        "parcel_id": "P0187",
+        "elevation_m": 125.39,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626456.658118734,
+          2156400.5853792513
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0188",
+        "parcel_id": "P0188",
+        "elevation_m": 124.68,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626497.445667535,
+          2156400.4651680393
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0189",
+        "parcel_id": "P0189",
+        "elevation_m": 120.34,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626540.944906032,
+          2156401.8898082185
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0190",
+        "parcel_id": "P0190",
+        "elevation_m": 123.44,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626576.997490227,
+          2156400.293662875
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0191",
+        "parcel_id": "P0191",
+        "elevation_m": 119.8,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626620.053754322,
+          2156403.5438502594
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0192",
+        "parcel_id": "P0192",
+        "elevation_m": 119.46,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626020.064096006,
+          2156438.715674195
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0193",
+        "parcel_id": "P0193",
+        "elevation_m": 118.73,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626058.652924668,
+          2156436.0623181527
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0194",
+        "parcel_id": "P0194",
+        "elevation_m": 124.26,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626097.553590413,
+          2156438.298402189
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0195",
+        "parcel_id": "P0195",
+        "elevation_m": 121.57,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626139.997559607,
+          2156438.722416517
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0196",
+        "parcel_id": "P0196",
+        "elevation_m": 118.92,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626178.3717728,
+          2156435.030626582
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0197",
+        "parcel_id": "P0197",
+        "elevation_m": 124.0,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626221.401236473,
+          2156437.7332913806
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0198",
+        "parcel_id": "P0198",
+        "elevation_m": 121.13,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626258.063542182,
+          2156437.899125702
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0199",
+        "parcel_id": "P0199",
+        "elevation_m": 119.15,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626301.192889472,
+          2156438.6400167355
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0200",
+        "parcel_id": "P0200",
+        "elevation_m": 119.41,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626341.72124878,
+          2156438.3786311694
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0201",
+        "parcel_id": "P0201",
+        "elevation_m": 119.92,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626379.85076703,
+          2156434.3970484864
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0202",
+        "parcel_id": "P0202",
+        "elevation_m": 122.88,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626419.72915052,
+          2156435.6180678047
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0203",
+        "parcel_id": "P0203",
+        "elevation_m": 124.22,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626460.176894344,
+          2156434.5643301476
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0204",
+        "parcel_id": "P0204",
+        "elevation_m": 119.43,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626500.900733732,
+          2156433.8644351945
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0205",
+        "parcel_id": "P0205",
+        "elevation_m": 119.2,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626539.498298557,
+          2156437.855815885
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0206",
+        "parcel_id": "P0206",
+        "elevation_m": 125.09,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626578.003415685,
+          2156436.9431769676
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0207",
+        "parcel_id": "P0207",
+        "elevation_m": 119.0,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626620.45037935,
+          2156433.9246005765
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0208",
+        "parcel_id": "P0208",
+        "elevation_m": 123.89,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626016.702229911,
+          2156468.1216688324
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0209",
+        "parcel_id": "P0209",
+        "elevation_m": 119.08,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626058.166431326,
+          2156471.5673724264
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0210",
+        "parcel_id": "P0210",
+        "elevation_m": 123.0,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626100.13205275,
+          2156470.064919472
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0211",
+        "parcel_id": "P0211",
+        "elevation_m": 119.34,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626138.975155067,
+          2156473.9190597385
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0212",
+        "parcel_id": "P0212",
+        "elevation_m": 124.61,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626181.247228837,
+          2156469.2516859705
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0213",
+        "parcel_id": "P0213",
+        "elevation_m": 122.47,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626217.015677737,
+          2156470.8508126494
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0214",
+        "parcel_id": "P0214",
+        "elevation_m": 119.75,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626261.574160518,
+          2156470.153357371
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0215",
+        "parcel_id": "P0215",
+        "elevation_m": 118.87,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626296.625387764,
+          2156471.837852437
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0216",
+        "parcel_id": "P0216",
+        "elevation_m": 122.45,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626338.401455242,
+          2156472.091817101
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0217",
+        "parcel_id": "P0217",
+        "elevation_m": 120.92,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626381.842846025,
+          2156471.8668491975
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0218",
+        "parcel_id": "P0218",
+        "elevation_m": 121.44,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626419.598590806,
+          2156472.583861276
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0219",
+        "parcel_id": "P0219",
+        "elevation_m": 119.09,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626458.122532368,
+          2156469.1471310537
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0220",
+        "parcel_id": "P0220",
+        "elevation_m": 124.98,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626498.56666464,
+          2156472.3070886796
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0221",
+        "parcel_id": "P0221",
+        "elevation_m": 119.35,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626537.796544002,
+          2156472.8730840273
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0222",
+        "parcel_id": "P0222",
+        "elevation_m": 123.48,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626579.066493273,
+          2156470.9841750814
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0223",
+        "parcel_id": "P0223",
+        "elevation_m": 124.06,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626618.289285509,
+          2156468.8061546115
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0224",
+        "parcel_id": "P0224",
+        "elevation_m": 118.95,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626019.404934146,
+          2156507.353778638
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0225",
+        "parcel_id": "P0225",
+        "elevation_m": 121.53,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626059.961797334,
+          2156506.0723896567
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0226",
+        "parcel_id": "P0226",
+        "elevation_m": 121.99,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626099.343263207,
+          2156506.261532266
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0227",
+        "parcel_id": "P0227",
+        "elevation_m": 123.97,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626138.39296345,
+          2156507.653344077
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0228",
+        "parcel_id": "P0228",
+        "elevation_m": 124.16,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626179.131174227,
+          2156504.627392637
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0229",
+        "parcel_id": "P0229",
+        "elevation_m": 125.05,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626219.976195967,
+          2156504.8641631487
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0230",
+        "parcel_id": "P0230",
+        "elevation_m": 124.17,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626260.261680493,
+          2156504.6100860517
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0231",
+        "parcel_id": "P0231",
+        "elevation_m": 119.91,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626298.445751546,
+          2156508.226896822
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0232",
+        "parcel_id": "P0232",
+        "elevation_m": 125.22,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626338.074250959,
+          2156506.59321892
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0233",
+        "parcel_id": "P0233",
+        "elevation_m": 124.73,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626380.219789697,
+          2156506.676592476
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0234",
+        "parcel_id": "P0234",
+        "elevation_m": 121.24,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626419.884319369,
+          2156508.879891954
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0235",
+        "parcel_id": "P0235",
+        "elevation_m": 125.38,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626456.705663364,
+          2156508.8235615706
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0236",
+        "parcel_id": "P0236",
+        "elevation_m": 123.54,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626497.311343795,
+          2156505.1525680367
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0237",
+        "parcel_id": "P0237",
+        "elevation_m": 122.55,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626539.713685002,
+          2156505.658551631
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0238",
+        "parcel_id": "P0238",
+        "elevation_m": 122.33,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626580.405570991,
+          2156505.425952022
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0239",
+        "parcel_id": "P0239",
+        "elevation_m": 119.83,
+        "accuracy_m": 0.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8626620.491864378,
+          2156506.133295025
+        ]
+      },
+      "properties": {
+        "point_id": "GNSS_PT_0240",
+        "parcel_id": "P0240",
+        "elevation_m": 120.56,
+        "accuracy_m": 0.02
+      }
+    }
+  ]
+}

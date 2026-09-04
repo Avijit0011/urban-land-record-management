@@ -1,0 +1,39 @@
+# Environment & Secrets
+.env
+*.env
+*.env.local
+*.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.venv/
+venv/
+ENV/
+env/
+
+# Node & Frontend Build
+node_modules/
+dist/
+build/
+.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Database & Uploaded Data
+*.db
+*.sqlite
+*.sqlite3
+land_record_fallback.db
+data/uploads/*
+data/synthetic/*
+
+# IDE & OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,23 @@
+{
+  "total_parcels": 240,
+  "total_buildings": 166,
+  "injected_conflicts": [
+    {
+      "parcel_id": "P0012",
+      "type": "area_mismatch"
+    },
+    {
+      "parcel_id": "P0018",
+      "building_id": "B0016",
+      "type": "building_outside"
+    },
+    {
+      "parcel_id": "P0025",
+      "type": "missing_owner"
+    },
+    {
+      "parcel_id": "P0042",
+      "type": "invalid_geometry"
+    }
+  ]
+}

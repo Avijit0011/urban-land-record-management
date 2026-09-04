@@ -1,0 +1,51 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgis/postgis:15-3.3
+    container_name: land_record_postgis
+    environment:
+      POSTGRES_DB: land_record_db
+      POSTGRES_USER: gis_user
+      POSTGRES_PASSWORD: gis_password
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U gis_user -d land_record_db"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: land_record_backend
+    ports:
+      - "8000:8000"
+    environment:
+      - DATABASE_URL=postgresql://gis_user:gis_password@postgres:5432/land_record_db
+      - TARGET_CRS=EPSG:3857
+      - CONFIDENCE_HIGH=0.85
+      - CONFIDENCE_MED=0.60
+      - DEMO_MODE=true
+    depends_on:
+      postgres:
+        condition: service_healthy
+    volumes:
+      - ./data:/app/data
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: land_record_frontend
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
+
+volumes:
+  postgres_data:

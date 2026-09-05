@@ -1,5 +1,5 @@
 from typing import List, Dict, Any, Optional
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, ConfigDict
 from datetime import datetime
 
 class DatasetBase(BaseModel):
@@ -20,8 +20,7 @@ class DatasetResponse(DatasetBase):
     bbox: Optional[List[float]] = None
     uploaded_at: datetime
 
-    class Config:
-        from_attributes = True
+    model_config = ConfigDict(from_attributes=True)
 
 class GeometryModel(BaseModel):
     type: str
@@ -49,8 +48,7 @@ class ParcelResponse(ParcelBase):
     created_at: datetime
     updated_at: datetime
 
-    class Config:
-        from_attributes = True
+    model_config = ConfigDict(from_attributes=True)
 
 class BuildingBase(BaseModel):
     building_id: str
@@ -69,8 +67,7 @@ class BuildingResponse(BuildingBase):
     created_at: datetime
     updated_at: datetime
 
-    class Config:
-        from_attributes = True
+    model_config = ConfigDict(from_attributes=True)
 
 class GeoJSONFeature(BaseModel):
     type: str = "Feature"
@@ -99,8 +96,7 @@ class ConflictResponse(BaseModel):
     created_at: datetime
     resolved_at: Optional[datetime] = None
 
-    class Config:
-        from_attributes = True
+    model_config = ConfigDict(from_attributes=True)
 
 class ConflictResolveRequest(BaseModel):
     action: str # approve, reject, edit
@@ -118,8 +114,7 @@ class AuditLogResponse(BaseModel):
     user_id: str
     timestamp: datetime
 
-    class Config:
-        from_attributes = True
+    model_config = ConfigDict(from_attributes=True)
 
 class FieldMappingRule(BaseModel):
     source_field: str
@@ -142,8 +137,7 @@ class ProcessingJobResponse(BaseModel):
     started_at: datetime
     completed_at: Optional[datetime] = None
 
-    class Config:
-        from_attributes = True
+    model_config = ConfigDict(from_attributes=True)
 
 class EvaluationMetrics(BaseModel):
     spatial_matching_accuracy: float
